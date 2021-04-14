@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="LeafTaps" parallel="methods" thread-count="3">
+<!-- <parameter name="url" value="http://leaftaps.com/opentaps/control/main"/>
+<parameter name="username" value="demosalesmanager"/>
+<parameter name="password" value="crmsfa"/> -->
+  <test  name="Leads">
+    <classes>
+      <class name="testngRunner"/>
+     <!--  <class name="week5.day1.Assignment_2"/> 
+      <class name="week5.day2.Assignment_4"/> -->
+    </classes>
+  </test> <!-- Leads -->
+</suite> <!-- LeafTaps -->
